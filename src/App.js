@@ -22,14 +22,14 @@ function App() {
   if (error) return <div>Error fetching todos </div>
 
   return (
-    <div className="vh-100 code flex flex-column items-center bg-purple white pa4 fl-1">
+    <div className="vh-100 avenir flex flex-column items-center bg-light-yellow black pa4 fl-1">
       <h1 className="f2-1">GraphQL Checklist
         <span role="img" aria-label="Checkmark"> ✅</span>
       </h1>
 
       <form className="mb-3">
-        <input className="pa2 f4 b--dashed" type="text" placeholder="Add your todo" />
-        <button className="pa2 f4 bg-green" type="submit">Create todo</button>
+        <input className="pa2 f4 " type="text" placeholder="Add your todo" />
+        <button className="f4 link dim br2 ph2 pv2 mb2 dib white bg-dark-green" type="submit">Create todo</button>
       </form>
 
       <div className="flex items-cener justify-left flex-column">
